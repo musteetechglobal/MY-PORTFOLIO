@@ -67,7 +67,9 @@ h2{font-size:24px;margin-bottom:14px;color:var(--accent)}
 /* footer */
 .site-footer{padding:30px 0;background:linear-gradient(180deg, transparent, rgba(0,0,0,0.2));position:relative}
 #backTop{position:fixed;right:18px;bottom:18px;padding:10px;border-radius:50%;background:rgba(0,0,0,0.6);color:var(--text);border:1px solid rgba(255,255,255,0.04);cursor:pointer}
-
+.container{
+  text-align: center;
+}
 /* preloader */
 .preloader{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:var(--bg);z-index:9999}
 .preloader .logo{font-weight:900;background:linear-gradient(90deg,var(--accent),#00e0c6);-webkit-background-clip:text;background-clip:text;color:transparent;font-size:28px}
